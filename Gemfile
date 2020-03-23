@@ -29,7 +29,7 @@ gem 'jquery-turbolinks', '~> 2.1.0'
 gem 'jbuilder', '~> 2.0'
 
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Summernote is the wysiwyg editor
 gem 'jquery-minicolors-rails'
@@ -55,7 +55,7 @@ gem 'devise-i18n'
 gem 'devise-bootstrap-views'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '>= 1.3.0'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 
@@ -143,7 +143,7 @@ gem 'faker'
 gem 'timecop' #used to populate
 
 gem 'themes_on_rails'
-gem "recaptcha", require: "recaptcha/rails"
+gem "recaptcha", "2.0.0"
 
 gem 'best_in_place', '~> 3.0.1'
 
@@ -185,8 +185,8 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'launchy'
-  gem "codeclimate-test-reporter",require: nil
-  gem 'simplecov', :require => false
+  gem "codeclimate-test-reporter", ">= 0.5.0", require: nil
+  gem 'simplecov', '>= 0.12.0', :require => false
 
   # remove this for Rails 5 because the function is already included
   gem 'test_after_commit'
