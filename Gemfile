@@ -72,7 +72,7 @@ gem 'grape-entity'
 gem 'grape-swagger-rails'
 gem 'grape-swagger-entity'
 gem 'grape-attack'
-gem 'grape-kaminari'
+gem 'grape-kaminari', '>= 0.1.9'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'permalink_fu'
@@ -80,8 +80,8 @@ gem 'paper_trail'
 
 gem 'acts-as-taggable-on', '~>3.5'
 
-gem 'kaminari'
-gem 'kaminari-i18n'
+gem 'kaminari', '>= 1.2.1'
+gem 'kaminari-i18n', '>= 0.4.0'
 
 gem 'globalize-versioning'
 gem 'globalize-accessors'
