@@ -47,7 +47,7 @@ gem 'sucker_punch', '~> 2.0'
 
 # Charting
 gem "groupdate"
-gem "chartkick"
+gem "chartkick", ">= 3.4.0"
 
 # Auth Gems
 gem 'devise'
