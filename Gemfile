@@ -53,11 +53,11 @@ gem "chartkick"
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-bootstrap-views'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'omniauth-twitter'
-gem 'omniauth-google-oauth2'
-gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2', '>= 0.4.0'
+gem 'omniauth-facebook', '>= 3.0.0'
 
 # i18n gems
 gem 'rails-i18n', '~> 4.0.0'
