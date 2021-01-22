@@ -55,7 +55,7 @@ gem 'devise-i18n'
 gem 'devise-bootstrap-views'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '>= 1.2.1'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 
