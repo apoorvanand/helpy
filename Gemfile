@@ -92,7 +92,7 @@ gem 'gravtastic'
 gem 'cloudinary', '1.1.2'
 gem 'attachinary'
 
-gem 'carrierwave', '~> 1.0.0'
+gem 'carrierwave', '~> 1.3.2'
 gem "jquery-fileupload-rails"
 gem 'mini_magick'
 
