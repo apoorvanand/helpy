@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.10'
+gem 'rails', '6.0.3.5'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -18,8 +18,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 # Inline js validations
-gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'client_side_validations', '>= 14.1.0'
+gem 'client_side_validations-simple_form', '>= 6.10.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '~> 2.5.3'
@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Summernote is the wysiwyg editor
-gem 'jquery-minicolors-rails'
+gem 'jquery-minicolors-rails', '>= 2.2.3.0'
 gem 'summernote-rails'
 gem 'codemirror-rails'
 
@@ -42,7 +42,7 @@ gem 'ranked-model'
 # Google Analytics Measurement Protocol
 gem 'staccato'
 
-gem "rails-settings-cached", '~> 0.5'
+gem "rails-settings-cached", "~> 0.5", ">= 0.5.6"
 gem 'sucker_punch', '~> 2.0'
 
 # Charting
@@ -81,7 +81,7 @@ gem 'paper_trail'
 gem 'acts-as-taggable-on', '~>3.5'
 
 gem 'kaminari'
-gem 'kaminari-i18n'
+gem 'kaminari-i18n', '>= 0.4.0'
 
 gem 'globalize-versioning'
 gem 'globalize-accessors'
@@ -90,7 +90,7 @@ gem 'gravtastic'
 
 # File handling
 gem 'cloudinary', '1.1.2'
-gem 'attachinary'
+gem 'attachinary', '>= 1.3.1'
 
 gem 'carrierwave', '~> 1.0.0'
 gem "jquery-fileupload-rails"
@@ -116,13 +116,13 @@ gem 'daemons'
 gem 'mailman'#, require: false
 gem 'mail_extract'
 
-gem 'griddler'
-gem 'griddler-mandrill'
-gem 'griddler-sendgrid'
-gem 'griddler-mailgun'
-gem 'griddler-postmark'
-gem 'griddler-mailin'
-gem 'griddler-sparkpost'
+gem 'griddler', '>= 1.3.1'
+gem 'griddler-mandrill', '>= 1.1.3'
+gem 'griddler-sendgrid', '>= 0.0.1'
+gem 'griddler-mailgun', '>= 1.0.2'
+gem 'griddler-postmark', '>= 1.0.0'
+gem 'griddler-mailin', '>= 0.0.1'
+gem 'griddler-sparkpost', '>= 0.0.1'
 
 gem 'rails-timeago'
 
@@ -142,7 +142,7 @@ gem 'faker'
 
 gem 'timecop' #used to populate
 
-gem 'themes_on_rails'
+gem 'themes_on_rails', '>= 0.4.0'
 gem "recaptcha", require: "recaptcha/rails"
 
 gem 'best_in_place', '~> 3.0.1'
