@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.10'
+gem 'rails', '6.0.3.5'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
-gem 'pg_search'
+gem 'pg_search', '>= 1.0.5'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -14,12 +14,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'nokogiri', '>= 1.8.1'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 4.1.1'
+gem 'jquery-ui-rails', '>= 5.0.5'
 
 # Inline js validations
-gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'client_side_validations', '>= 14.1.0'
+gem 'client_side_validations-simple_form', '>= 6.10.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '~> 2.5.3'
@@ -32,17 +32,17 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Summernote is the wysiwyg editor
-gem 'jquery-minicolors-rails'
-gem 'summernote-rails'
+gem 'jquery-minicolors-rails', '>= 2.2.3.0'
+gem 'summernote-rails', '>= 0.8.3.0'
 gem 'codemirror-rails'
 
 # Ranked model gives the ability to rank articles and categories
-gem 'ranked-model'
+gem 'ranked-model', '>= 0.4.0'
 
 # Google Analytics Measurement Protocol
 gem 'staccato'
 
-gem "rails-settings-cached", '~> 0.5'
+gem "rails-settings-cached", "~> 0.5", ">= 0.5.6"
 gem 'sucker_punch', '~> 2.0'
 
 # Charting
@@ -50,7 +50,7 @@ gem "groupdate"
 gem "chartkick"
 
 # Auth Gems
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'devise-i18n'
 gem 'devise-bootstrap-views'
 gem 'omniauth'
@@ -60,53 +60,53 @@ gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 
 # i18n gems
-gem 'rails-i18n', '~> 4.0.0'
-gem 'i18n-country-translations'
-gem 'route_translator'
+gem 'rails-i18n', '~> 6.0.0'
+gem 'i18n-country-translations', '>= 1.2.3'
+gem 'route_translator', '>= 5.10.0'
 gem 'http_accept_language'
 
 # API gems
 gem 'grape'
 gem 'grape-swagger'
 gem 'grape-entity'
-gem 'grape-swagger-rails'
+gem 'grape-swagger-rails', '>= 0.3.0'
 gem 'grape-swagger-entity'
 gem 'grape-attack'
-gem 'grape-kaminari'
+gem 'grape-kaminari', '>= 0.1.9'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'permalink_fu'
-gem 'paper_trail'
+gem 'paper_trail', '>= 4.1.0'
 
-gem 'acts-as-taggable-on', '~>3.5'
+gem 'acts-as-taggable-on', '~> 4.0', '>= 4.0.0'
 
-gem 'kaminari'
-gem 'kaminari-i18n'
+gem 'kaminari', '>= 0.16.3'
+gem 'kaminari-i18n', '>= 0.4.0'
 
-gem 'globalize-versioning'
-gem 'globalize-accessors'
+gem 'globalize-versioning', '>= 0.3.0'
+gem 'globalize-accessors', '>= 0.2.1'
 
 gem 'gravtastic'
 
 # File handling
 gem 'cloudinary', '1.1.2'
-gem 'attachinary'
+gem 'attachinary', '>= 1.3.1'
 
 gem 'carrierwave', '~> 1.0.0'
-gem "jquery-fileupload-rails"
+gem "jquery-fileupload-rails", ">= 0.4.7"
 gem 'mini_magick'
 
 # Bootstrap/UI Gems
 gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'bootstrap_form'
-gem 'simple_form'
-gem 'twitter-bootstrap-rails'
+gem 'simple_form', '>= 4.0.0'
+gem 'twitter-bootstrap-rails', '>= 3.2.2'
 gem 'twitter-bootstrap-rails-confirm'
 gem 'rdiscount'
 gem 'selectize-rails'
 gem "bootstrap-switch-rails"
-gem 'bootstrap-datepicker-rails'
+gem 'bootstrap-datepicker-rails', '>= 1.6.4.1'
 gem 'bootstrap-select-rails'
 
 gem 'config', '~> 1.1.0', git: 'https://github.com/railsconfig/config.git'
@@ -116,17 +116,17 @@ gem 'daemons'
 gem 'mailman'#, require: false
 gem 'mail_extract'
 
-gem 'griddler'
-gem 'griddler-mandrill'
-gem 'griddler-sendgrid'
-gem 'griddler-mailgun'
-gem 'griddler-postmark'
-gem 'griddler-mailin'
-gem 'griddler-sparkpost'
+gem 'griddler', '>= 1.3.1'
+gem 'griddler-mandrill', '>= 1.1.3'
+gem 'griddler-sendgrid', '>= 0.0.1'
+gem 'griddler-mailgun', '>= 1.0.2'
+gem 'griddler-postmark', '>= 1.0.0'
+gem 'griddler-mailin', '>= 0.0.1'
+gem 'griddler-sparkpost', '>= 0.0.1'
 
-gem 'rails-timeago'
+gem 'rails-timeago', '>= 2.13.0'
 
-gem 'devise_invitable', '~> 1.6'
+gem 'devise_invitable', '~> 1.6', '>= 1.6.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -142,10 +142,10 @@ gem 'faker'
 
 gem 'timecop' #used to populate
 
-gem 'themes_on_rails'
+gem 'themes_on_rails', '>= 0.4.0'
 gem "recaptcha", require: "recaptcha/rails"
 
-gem 'best_in_place', '~> 3.0.1'
+gem 'best_in_place', '~> 3.0.3'
 
 # Add onboarding component
 gem 'helpy_onboarding', path: 'vendor/helpy_onboarding'
@@ -157,14 +157,14 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'spring', '~> 1.4.0'
-  gem 'annotate'
+  gem 'annotate', '>= 2.7.0'
   gem 'brakeman', require: false
   gem 'rubocop'
   gem 'scss-lint'
   gem 'awesome_print'
 end
 
-gem 'bulk_insert'
+gem 'bulk_insert', '>= 1.2.0'
 gem 'roo'
 
 group :development do
@@ -174,14 +174,14 @@ group :development do
   gem 'bullet'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 end
 
 group :test do
   gem 'minitest'
   gem 'minitest-reporters'
   gem 'shoulda'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.7.0'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'launchy'
@@ -189,7 +189,7 @@ group :test do
   gem 'simplecov', :require => false
 
   # remove this for Rails 5 because the function is already included
-  gem 'test_after_commit'
+  gem 'test_after_commit', '>= 1.1.0'
 end
 
 group :production do
