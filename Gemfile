@@ -182,9 +182,9 @@ group :test do
   gem 'minitest-reporters'
   gem 'shoulda'
   gem 'factory_girl_rails'
-  gem 'capybara'
+  gem 'capybara', '>= 2.7.0'
   gem 'selenium-webdriver'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem "codeclimate-test-reporter",require: nil
   gem 'simplecov', :require => false
 
